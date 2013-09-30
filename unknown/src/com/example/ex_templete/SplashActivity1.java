@@ -19,7 +19,7 @@ public class SplashActivity1 extends Activity
     
     public  void btnnext(View v)
     {
-        startActivity(new Intent());
+//        startActivity(new Intent());
     }
 
     @Override
