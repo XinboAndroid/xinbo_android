@@ -2,6 +2,7 @@ package com.example.ex_templete;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 
@@ -26,7 +27,7 @@ public class YangPeiboActivity2 extends Activity {
 	public void btnClick(View v)
 	{
 		//ÏÂÒ»Ò³°´Å¥
-		
+		startActivity(new Intent(YangPeiboActivity2.this, LeadActivity3.class));
 	}
 	
 
