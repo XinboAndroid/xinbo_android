@@ -31,9 +31,9 @@ public class SplashActivity1 extends Activity
 	}
 	public  void btnnext(View v)
     {		
-//      startActivity(new Intent(SplashActivity1.this,XXXX));
-//		overridePendingTransition(SplashActivity1.this, XXX);
-//		finish();
+        Intent intent = new Intent(this, YangPeiboActivity2.class);
+		startActivity(intent );
+		
     }
 
     @Override
