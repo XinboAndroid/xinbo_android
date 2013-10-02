@@ -4,5 +4,6 @@
     <string name="app_name">EX_templete</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_yang_peibo_activity2">YangPeiboActivity2</string>
 
 </resources>
