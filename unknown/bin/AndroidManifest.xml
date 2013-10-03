@@ -26,7 +26,12 @@
             android:name="com.example.ex_templete.YangPeiboActivity2"
             android:label="@string/title_activity_yang_peibo_activity2" >
         </activity>
-        <activity android:name="com.example.ex_templete.LeadActivity3"></activity>
+        <activity android:name="com.example.ex_templete.LeadActivity3" >
+        </activity>
+        <activity
+            android:name="com.example.ex_templete.Number4Activity"
+            android:label="@string/title_activity_number4" >
+        </activity>
     </application>
 
 </manifest>
