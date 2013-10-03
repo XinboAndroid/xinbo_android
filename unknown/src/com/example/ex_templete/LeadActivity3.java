@@ -3,6 +3,7 @@ package com.example.ex_templete;
 import java.util.ArrayList;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -59,7 +60,7 @@ public class LeadActivity3 extends Activity {
 	}
 	
 	public void Next(View v) {
-//		startActivity(new Intent(this, xxx));
+		startActivity(new Intent(this, Number4Activity.class));
 	}
 
 }
