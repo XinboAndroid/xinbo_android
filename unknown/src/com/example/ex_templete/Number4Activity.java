@@ -18,7 +18,7 @@ public class Number4Activity extends Activity {
 	private ImageView mImageView;
 
 	public void next(View v){
-//		startActivity(new Intent(this,nextActivity.class));
+		startActivity(new Intent(this,ZwtActivity5.class));
 	}
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
