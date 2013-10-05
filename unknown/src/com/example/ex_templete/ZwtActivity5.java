@@ -51,7 +51,8 @@ public class ZwtActivity5 extends Activity {
 	}
 	public void bntNext(View v){
 		
-		
+		Intent intent=new Intent(ZwtActivity5.this,BaofengActivity6.class);
+		startActivity(intent);
 	}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

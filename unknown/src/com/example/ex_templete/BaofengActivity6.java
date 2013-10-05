@@ -1,0 +1,65 @@
+package com.example.ex_templete;
+
+import java.util.ArrayList;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.View;
+
+public class BaofengActivity6 extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_baofeng_activity6);
+		
+		LayoutInflater inflater = getLayoutInflater();
+		View layout1 = inflater.inflate(R.layout.bao_pager1, null);
+		View layout2 = inflater.inflate(R.layout.bao_pager2, null);
+		View layout3 = inflater.inflate(R.layout.bao_pager3, null);
+		final ArrayList<View> viewArray=new ArrayList<View>();
+		viewArray.add(layout1);
+		viewArray.add(layout2);
+		viewArray.add(layout3);
+		final ViewPager viewPager=(ViewPager) findViewById(R.id.pager_icon);
+		viewPager.setAdapter(new PagerAdapter() {
+			@Override
+			public Object instantiateItem(View container, int position) {
+				View layout = viewArray.get(position);
+				viewPager.addView(layout);
+				return layout;
+			}
+			@Override
+			public void destroyItem(View container, int position, Object object) {
+				View layout = viewArray.get(position);
+				viewPager.removeView(layout);
+			}
+			@Override
+			public boolean isViewFromObject(View arg0, Object arg1) {
+				
+				return arg0==arg1;
+			}
+			
+			@Override
+			public int getCount() {
+				// TODO Auto-generated method stub
+				return viewArray.size();
+			}
+		});
+	}
+	public void btnNextPage(View v) {
+		// TODO Auto-generated method stub
+
+	}
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.baofeng_activity6, menu);
+		return true;
+	}
+
+}
