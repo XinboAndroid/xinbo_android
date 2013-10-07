@@ -38,6 +38,10 @@
             android:name="com.example.ex_templete.BaofengActivity6"
             android:label="@string/title_activity_baofeng_activity6" >
         </activity>
+        <activity
+            android:name="com.example.ex_templete.ChenJiaLiang7Activity"
+            android:label="@string/title_activity_chen_jia_liang7" >
+        </activity>
     </application>
 
 </manifest>

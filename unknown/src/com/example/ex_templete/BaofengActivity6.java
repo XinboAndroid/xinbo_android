@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
@@ -52,7 +53,7 @@ public class BaofengActivity6 extends Activity {
 		});
 	}
 	public void btnNextPage(View v) {
-		// TODO Auto-generated method stub
+		startActivity(new Intent(BaofengActivity6.this,ChenJiaLiang7Activity.class));
 
 	}
 	@Override
