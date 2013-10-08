@@ -10,9 +10,15 @@
     <string name="title_activity_chen_jia_liang">ChenJiaLiangActivity</string>
     <string name="title_activity_chen_jia_liang7">ChenJiaLiang7Activity</string>
     <string name="title_activity_ruan_activity10">RuanActivity10</string>
-	<string name="app_name">SimplePuzzle</string>
+    <string name="app_name">SimplePuzzle</string>
     <string name="button01">打乱</string>
     <string name="button02">换一张</string>
     <string name="menu_about">关于</string>
     <string name="menu_exit">退出</string>
+    <string name="hello">Android底层是基于什么操作系统？</string>
+    <string name="RadioButton1">Windows</string>
+    <string name="RadioButton2">Linux</string>
+    <string name="RadioButton3">Moc os</string>
+    <string name="RadioButton4">Java</string>
+
 </resources>
