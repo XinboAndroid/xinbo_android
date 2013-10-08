@@ -28,11 +28,11 @@ public class ChenJiaLiang7Activity extends Activity{
 	private ImageButton imageButton5;
 	private int num=0;
 	
-	//½øÈëÏÂÒ»¸ö½çÃæÈë¿Ú£¡
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú£ï¿½
 	public void fun(){
 		if(num==5){
-			Toast.makeText(getApplicationContext(), "¹§Ï²Äã¹ı¹ØÁË£¡", Toast.LENGTH_SHORT).show();
-			startActivity(new Intent());
+			Toast.makeText(getApplicationContext(), "æ­å–œä½ è¿‡å…³", Toast.LENGTH_SHORT).show();
+//			startActivity(new Intent());
 		}
 	}
 	

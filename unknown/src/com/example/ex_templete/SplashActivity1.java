@@ -11,7 +11,7 @@ import android.widget.ImageView;
 public class SplashActivity1 extends Activity
 {
     private AnimationDrawable mGif;
-
+       
 	@Override
     protected void onCreate(Bundle savedInstanceState)
     {
