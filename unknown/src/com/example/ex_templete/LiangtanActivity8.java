@@ -12,7 +12,10 @@ import android.view.View;
 
 public class LiangtanActivity8 extends Activity {
 
-	@Override
+	public void next4(View v) {
+
+		startActivity(new Intent(LiangtanActivity8.this,LaiguangqiangActivity9.class));
+	}
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_third);
