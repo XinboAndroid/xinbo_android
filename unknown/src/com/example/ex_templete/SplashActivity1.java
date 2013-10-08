@@ -29,6 +29,8 @@ public class SplashActivity1 extends Activity
     public void play(View v) {
     	mGif.stop();
     	mGif.start();
+
+        Log.e("SplashActivity1", "play()");
 	}
 	public  void btnnext(View v)
     {		
