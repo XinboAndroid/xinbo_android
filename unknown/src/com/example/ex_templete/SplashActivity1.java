@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.ImageView;
@@ -17,7 +18,7 @@ public class SplashActivity1 extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        
+        Log.e("SplashActivity1", "onCreate()");
         initUi();
     }
     
