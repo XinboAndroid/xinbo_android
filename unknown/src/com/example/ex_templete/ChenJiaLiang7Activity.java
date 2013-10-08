@@ -28,11 +28,12 @@ public class ChenJiaLiang7Activity extends Activity{
 	private ImageButton imageButton5;
 	private int num=0;
 	
-	//������һ��������ڣ�
+	//锟斤拷锟斤拷锟斤拷一锟斤拷锟斤拷锟斤拷锟斤拷冢锟�
 	public void fun(){
 		if(num==5){
-			Toast.makeText(getApplicationContext(), "恭喜你过关", Toast.LENGTH_SHORT).show();
-//			startActivity(new Intent());
+
+			Toast.makeText(getApplicationContext(), "恭喜你过关了！", Toast.LENGTH_SHORT).show();
+			startActivity(new Intent(this,LiangtanActivity8.class));
 		}
 	}
 	
