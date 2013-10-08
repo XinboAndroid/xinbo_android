@@ -28,9 +28,9 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:onClick="play"
-        android:text=""
-        android:background="@drawable/splash" />
+        android:layout_alignTop="@+id/button1"
+        android:layout_marginLeft="46dp"
+        android:background="@drawable/splash"
+        android:onClick="play" />
 
 </RelativeLayout>
