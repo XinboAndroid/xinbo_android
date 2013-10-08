@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">EX_templete</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_yang_peibo_activity2">YangPeiboActivity2</string>
@@ -10,5 +9,10 @@
     <string name="title_activity_baofeng_activity6">BaofengActivity6</string>
     <string name="title_activity_chen_jia_liang">ChenJiaLiangActivity</string>
     <string name="title_activity_chen_jia_liang7">ChenJiaLiang7Activity</string>
-
+    <string name="title_activity_ruan_activity10">RuanActivity10</string>
+	<string name="app_name">SimplePuzzle</string>
+    <string name="button01">打乱</string>
+    <string name="button02">换一张</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_exit">退出</string>
 </resources>
