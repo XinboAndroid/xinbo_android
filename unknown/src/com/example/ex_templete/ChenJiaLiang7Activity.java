@@ -27,7 +27,7 @@ public class ChenJiaLiang7Activity extends Activity{
 	private ImageButton imageButton4;
 	private ImageButton imageButton5;
 	private int num=0;
-	
+	//提前祝圣诞快乐!--修改记录2013-12-2-22:33
 	//锟斤拷锟斤拷锟斤拷一锟斤拷锟斤拷锟斤拷锟斤拷冢锟�
 	public void fun(){
 		if(num==5){
