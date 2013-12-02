@@ -22,6 +22,7 @@ public class BaofengActivity6 extends Activity {
 		View layout1 = inflater.inflate(R.layout.bao_pager1, null);
 		View layout2 = inflater.inflate(R.layout.bao_pager2, null);
 		View layout3 = inflater.inflate(R.layout.bao_pager3, null);
+		//12.2 20:19 新增注释   新建一个容器用于保存viewpager的item
 		final ArrayList<View> viewArray=new ArrayList<View>();
 		viewArray.add(layout1);
 		viewArray.add(layout2);
