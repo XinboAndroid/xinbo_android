@@ -32,6 +32,7 @@ public class SplashActivity1 extends Activity
 
         Log.e("SplashActivity1", "play()");
 	}
+    //12.2 23:19 新增注释   按钮的点击事件  ljy
 	public  void btnnext(View v)
     {		
         Intent intent = new Intent(this, YangPeiboActivity2.class);
