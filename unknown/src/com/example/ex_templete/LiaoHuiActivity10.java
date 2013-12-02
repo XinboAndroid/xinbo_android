@@ -27,7 +27,7 @@ public class LiaoHuiActivity10 extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_liaohui);
         initUI();
-        
+        //被忽悠了，我还以为是啥答案呢
         mradioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
 			
 			@Override
