@@ -26,7 +26,8 @@ public class Number4Activity extends Activity {
 		setContentView(R.layout.activity_number4);
 		
 		initUI();
-		mImageView.setVisibility(View.VISIBLE);		
+		mImageView.setVisibility(View.VISIBLE);	
+		Log.e("Main", "onCreate()");	
 		Animation loadAnimation = AnimationUtils.loadAnimation(this, R.anim.set);
 		mImageView.startAnimation(loadAnimation);
 		loadAnimation.setAnimationListener(new AnimationListener() {
