@@ -29,7 +29,7 @@ public class Number4Activity extends Activity {
 		initUI();
 		System.out.println("Main");
 		mImageView.setVisibility(View.VISIBLE);	
-		Log.e("Main", "onCreate()");	
+		Log.e("Main", "onCreateAAA()");	
 		Animation loadAnimation = AnimationUtils.loadAnimation(this, R.anim.set);
 		mImageView.startAnimation(loadAnimation);
 		loadAnimation.setAnimationListener(new AnimationListener() {
@@ -50,6 +50,8 @@ public class Number4Activity extends Activity {
 	}
 	
 	public void initUI() {
+		
+		System.out.println("initUI");
 		mButton = (Button) findViewById(R.id.btn_num4);
 		mImageView = (ImageView) findViewById(R.id.imageView1);
 	
