@@ -3,6 +3,7 @@ package com.example.ex_templete;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.animation.Animation;
@@ -26,6 +27,7 @@ public class Number4Activity extends Activity {
 		setContentView(R.layout.activity_number4);
 		
 		initUI();
+		System.out.println("Main");
 		mImageView.setVisibility(View.VISIBLE);	
 		Log.e("Main", "onCreate()");	
 		Animation loadAnimation = AnimationUtils.loadAnimation(this, R.anim.set);
