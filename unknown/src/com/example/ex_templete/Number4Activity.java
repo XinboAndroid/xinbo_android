@@ -19,7 +19,7 @@ public class Number4Activity extends Activity {
 	private ImageView mImageView;
 
 	public void next(View v){
-		System.out.println("Main");
+		System.out.println("MainBB");
 		startActivity(new Intent(this,ZwtActivity5.class));
 	}
 	@Override
