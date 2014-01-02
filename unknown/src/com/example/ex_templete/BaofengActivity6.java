@@ -19,7 +19,8 @@ public class BaofengActivity6 extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_baofeng_activity6);
 		// 2014.01.02  16:55 新增注释 
-		System.out.println("test");
+		System.out.println("test");		
+		Log.e("test", "onCreate()");
 		Log.e("test", "onCreate()");
 		Log.e("test", "onCreate()");
 		//12.2 17:42 新增注释
