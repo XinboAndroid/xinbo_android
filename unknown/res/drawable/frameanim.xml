@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item android:drawable="@drawable/tusiji01" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji02" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji03" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji04" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji05" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji06" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji07" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji08" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji09" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji10" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji11" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji12" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji13" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji14" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji01" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji02" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji03" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji04" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji05" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji06" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji07" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji08" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji09" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji10" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji11" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji12" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji13" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji14" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji01" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji15" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji16" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji17" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji18" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji19" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji20" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji21" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji22" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji23" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji24" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji25" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji26" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji17" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji18" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji19" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji20" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji21" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji22" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji23" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji24" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji25" android:duration="60"/>
+	<item android:drawable="@drawable/tusiji26" android:duration="60"/>
+    
+</animation-list>
