@@ -1,5 +1,7 @@
 package com.example.ex_templete;
 
+import com.example.ex_templete.R;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -13,10 +15,13 @@ public class YeXiangActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ye_xiang_lqm);
-        findViewById(R.id.textview);
+        //陈聪
+        TextView mTextView = (TextView)findViewById(R.id.textview);
+        mTextView.setBackgroundResource(R.drawable.zhong500wan);
         showToast();
     }
-
+    
+    
     //陈星
     private void showToast()
     {
