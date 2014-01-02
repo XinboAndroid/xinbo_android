@@ -3,6 +3,7 @@ package com.example.ex_templete;
 import java.util.ArrayList;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.graphics.drawable.AnimationDrawable;
@@ -69,9 +70,9 @@ public class HuaCaiActivity extends Activity {
 						@Override
 						public void onClick(View v) {
 							
-//							Intent intent = new Intent();
-//							intent.setClass(HuaCaiActivity.this, MainActivity.class);
-//							startActivity(intent );
+							Intent intent = new Intent();
+							intent.setClass(HuaCaiActivity.this, liyongMainActivity.class);
+							startActivity(intent );
 							finish();
 						}
 					});
