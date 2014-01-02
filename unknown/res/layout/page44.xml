@@ -7,17 +7,16 @@
         android:id="@+id/iv_newman_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:scaleType="fitXY"
+        android:scaleType="fitCenter"
         android:src="@drawable/yyu" />
-
-    
 
     <Button
         android:id="@+id/btn_newman_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/iv_newman_4"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:onClick="next"
         android:text="进入下一页"
