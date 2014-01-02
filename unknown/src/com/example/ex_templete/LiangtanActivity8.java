@@ -62,7 +62,7 @@ private void viewPage() {
 		});		
 	}
         public void next(View v) {
-              Intent intent=new Intent(this,HuaCaiActivity.class);
+              Intent intent=new Intent(this,ChunGe1309Activity.class);
 			startActivity(intent);
 			finish();
 		}
