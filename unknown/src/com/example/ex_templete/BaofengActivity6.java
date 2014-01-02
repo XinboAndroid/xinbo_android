@@ -65,6 +65,7 @@ public class BaofengActivity6 extends Activity {
 		finish();
 
 	}
+	//不用要记得删除，不然会产生BUG
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
