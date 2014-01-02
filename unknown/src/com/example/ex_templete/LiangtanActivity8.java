@@ -62,8 +62,8 @@ private void viewPage() {
 		});		
 	}
         public void next(View v) {
-            //  Intent intent=new Intent(this,Mainpage.class);
-			//startActivity(intent);
+              Intent intent=new Intent(this,HuaCaiActivity.class);
+			startActivity(intent);
 			//();
 		}
 	@Override
