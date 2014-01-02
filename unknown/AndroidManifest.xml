@@ -48,6 +48,10 @@
             android:name="com.example.ex_templete.RuanActivity10"
             android:label="@string/title_activity_ruan_activity10" >
         </activity>
+        <activity
+            android:name="com.example.ex_templete.HuaCaiActivity"
+            android:label="@string/title_activity_ruan_activity10" >
+        </activity>
     </application>
 
 </manifest>
