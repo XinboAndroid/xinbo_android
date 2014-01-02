@@ -18,6 +18,7 @@ public class BaofengActivity6 extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_baofeng_activity6);
 		// 2014.01.02  16:55 新增注释 
+		Log.e("test", "onCreate()");
 		//12.2 17:42 新增注释
 		LayoutInflater inflater = getLayoutInflater();
 		View layout1 = inflater.inflate(R.layout.bao_pager1, null);
