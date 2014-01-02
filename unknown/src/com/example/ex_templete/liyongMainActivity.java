@@ -3,13 +3,14 @@ package com.example.ex_templete;
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.Activity;
-import android.content.Intent;
+import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 /**
@@ -22,6 +23,8 @@ public class liyongMainActivity extends Activity {
 	
 	//定义Handler句柄
 	private final Handler handler = new Handler();
+
+	
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -69,9 +72,22 @@ public class liyongMainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.liyongmain, menu);	
 		return true;
 	}
-
-	public void bt_startActivity(View v) {
-		Toast.makeText(this, "点击跳转下个activity", Toast.LENGTH_SHORT).show();
+	private Toast toast;
+	public void bt_startActivity(View v1) {
+		if(toast==null){
+			
+			toast = new Toast(this);
+		}
+//		自定义toast
+		   LayoutInflater inflate = (LayoutInflater)
+	                this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+	        View v = inflate.inflate(R.layout.custom_toast, null);
+	        TextView tv = (TextView)v.findViewById(R.id.textView1);
+	        tv.setText("哈喽");
+	        toast.setView(v);
+	        toast.setDuration(toast.LENGTH_LONG);
+	    	toast.show();
+	
 	}
 	
 	@Override
