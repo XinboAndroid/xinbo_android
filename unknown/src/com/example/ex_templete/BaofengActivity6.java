@@ -23,6 +23,7 @@ public class BaofengActivity6 extends Activity {
 		Log.e("test", "onCreate()");
 		Log.e("test", "onCreate()");
 		Log.e("test", "onCreate()");
+		Log.e("test", "onCreate()");
 		//12.2 17:42 新增注释
 		LayoutInflater inflater = getLayoutInflater();
 		View layout1 = inflater.inflate(R.layout.bao_pager1, null);
