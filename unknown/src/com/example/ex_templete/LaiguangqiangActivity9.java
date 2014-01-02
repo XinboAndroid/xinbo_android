@@ -11,6 +11,7 @@ public class LaiguangqiangActivity9 extends Activity
 	public void btu(View v)
 	{
 		startActivity(new Intent(this, LiaoHuiActivity10.class));
+		finish();
 	}
 
 	protected void onCreate(Bundle savedInstanceState)

@@ -21,6 +21,7 @@ public class Number4Activity extends Activity {
 	public void next(View v){
 		System.out.println("MainBB");
 		startActivity(new Intent(this,ZwtActivity5.class));
+		finish();
 	}
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

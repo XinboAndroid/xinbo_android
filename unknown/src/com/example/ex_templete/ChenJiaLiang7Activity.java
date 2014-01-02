@@ -34,6 +34,7 @@ public class ChenJiaLiang7Activity extends Activity{
 
 			Toast.makeText(getApplicationContext(), "恭喜你过关了！", Toast.LENGTH_SHORT).show();
 			startActivity(new Intent(this,LiangtanActivity8.class));
+			finish();
 		}
 	}
 	

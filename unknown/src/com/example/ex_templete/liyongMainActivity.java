@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 /**
  *	主Activity，程序入口类
@@ -66,6 +68,10 @@ public class liyongMainActivity extends Activity {
 		return true;
 	}
 
+	public void bt_startActivity(View v) {
+		Toast.makeText(this, "点击跳转下个activity", Toast.LENGTH_SHORT).show();
+	}
+	
 	@Override
 	public boolean onOptionsItemSelected(final MenuItem item) {
 		switch (item.getItemId()) {

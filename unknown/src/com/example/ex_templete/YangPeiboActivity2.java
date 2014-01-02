@@ -26,8 +26,9 @@ public class YangPeiboActivity2 extends Activity {
 	
 	public void btnClick(View v)
 	{
-		//обр╩рЁ╟╢е╔
+		//О©╫О©╫р╩рЁО©╫О©╫е╔
 		startActivity(new Intent(YangPeiboActivity2.this, LeadActivity3.class));
+		finish();
 	}
 	
 

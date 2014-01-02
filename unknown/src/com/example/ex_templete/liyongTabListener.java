@@ -7,10 +7,7 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 
-/**
- * @author yangyu
- *  ����������Tabѡ���ǩ����ӿ�
- */
+@SuppressLint("NewApi")
 public class liyongTabListener<T extends Fragment> implements TabListener {
 	private Fragment fragment;
 	

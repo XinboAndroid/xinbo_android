@@ -62,6 +62,7 @@ public class BaofengActivity6 extends Activity {
 	}
 	public void btnNextPage(View v) {
 		startActivity(new Intent(BaofengActivity6.this,ChenJiaLiang7Activity.class));
+		finish();
 
 	}
 	@Override

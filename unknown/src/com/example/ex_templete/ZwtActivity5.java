@@ -60,6 +60,7 @@ public class ZwtActivity5 extends Activity
     {
         Intent intent = new Intent(ZwtActivity5.this, BaofengActivity6.class);
         startActivity(intent);
+        finish();
     }
 
     @Override

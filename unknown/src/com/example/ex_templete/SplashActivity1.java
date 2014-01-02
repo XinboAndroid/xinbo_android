@@ -37,6 +37,7 @@ public class SplashActivity1 extends Activity
     {		
         Intent intent = new Intent(this, YangPeiboActivity2.class);
 		startActivity(intent );
+		finish();
 		
     }
 

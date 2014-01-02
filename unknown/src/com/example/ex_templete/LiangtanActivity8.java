@@ -64,7 +64,7 @@ private void viewPage() {
         public void next(View v) {
               Intent intent=new Intent(this,HuaCaiActivity.class);
 			startActivity(intent);
-			//();
+			finish();
 		}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
