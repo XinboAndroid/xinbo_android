@@ -1,5 +1,6 @@
 package com.example.ex_templete;
 
+import android.R;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -12,6 +13,7 @@ public class YeXiangActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ye_xiang);
+//        findViewById(R.id.textview);
     }
 
     @Override
