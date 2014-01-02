@@ -31,7 +31,8 @@ public class HuaCaiActivity extends Activity {
 	//2014.1.2 吴****     
 		View layout1 = inflater.inflate(R.layout.pager_item, null);
 		View layout2 = inflater.inflate(R.layout.pager_item, null);
-		View layout3 = inflater.inflate(R.layout.pager_item, null);
+		View layout3 = inflater.inflate(R.layout.pager_item_huacai, null);
+		// 呵呵 不知道加什么了 就加个注释吧
 		View layout4 = inflater.inflate(R.layout.pager_item, null);
 		View layout5 = inflater.inflate(R.layout.pager_item, null);
 		
@@ -50,6 +51,9 @@ public class HuaCaiActivity extends Activity {
 				View layout = layouts.get(position);
 				TextView textView = (TextView) layout.findViewById(R.id.textView1);
 				textView.setText(String.valueOf("-第" + (position + 1) + "页-"));
+				if((position+1)==3){
+					textView.setText("呵呵 不知道加什么了 就加个注释吧,表示我来过");
+				}
 				final ImageView imageView = (ImageView) layout.findViewById(R.id.imageView1);
 				imageView.post(new Runnable() {
 					
