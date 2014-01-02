@@ -3,6 +3,7 @@ package com.example.ex_templete;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
+import android.widget.Toast;
 
 public class YeXiangActivity extends Activity
 {
@@ -12,7 +13,14 @@ public class YeXiangActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ye_xiang);
-//        findViewById(R.id.textview);
+        findViewById(R.id.textview);
+        showToast();
+    }
+
+    //陈星
+    private void showToast()
+    {
+        Toast.makeText(this, "toast test...", Toast.LENGTH_LONG).show();
     }
 
     @Override
