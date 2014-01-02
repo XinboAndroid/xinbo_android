@@ -12,7 +12,7 @@ public class YeXiangActivity extends Activity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ye_xiang);
+        setContentView(R.layout.activity_ye_xiang_lqm);
         findViewById(R.id.textview);
         showToast();
     }

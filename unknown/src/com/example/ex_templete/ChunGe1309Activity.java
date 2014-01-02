@@ -19,7 +19,8 @@ public class ChunGe1309Activity extends FragmentActivity implements OnClickListe
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_chunge1309);
+//		setContentView(R.layout.activity_chunge1309);
+		setContentView(R.layout.activity_chunge1309_lqm);
 		findViewById(R.id.bnt_next).setOnClickListener(this);
 		initfragment();
 	}
@@ -28,7 +29,9 @@ public class ChunGe1309Activity extends FragmentActivity implements OnClickListe
 	{
 		FragmentManager fragmentManager = getSupportFragmentManager();
 		FragmentTransaction ft = fragmentManager.beginTransaction();
-		ft.add(R.id.content, new TouchRotateFragment());
+//		ft.add(R.id.content, new TouchRotateFragment());
+		//源代码不祥
+		ft.replace(R.id.content, new TouchRotateFragment());
 		ft.commit();
 	}
 
@@ -43,7 +46,7 @@ public class ChunGe1309Activity extends FragmentActivity implements OnClickListe
 	@Override
 	public void onClick(View v)
 	{
-		//activity��ת
+		//activity��ת
 				
 	switch (v.getId())
 	{
