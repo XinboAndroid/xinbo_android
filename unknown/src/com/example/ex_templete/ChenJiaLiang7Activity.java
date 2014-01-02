@@ -42,6 +42,18 @@ public class ChenJiaLiang7Activity extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_chen_jia_liang7);
+		//添加chenjialiangActivity按钮点击事件  2013.01.02 22:07
+		findViewById(R.id.btn_next).setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent();
+				intent.setClass(ChenJiaLiang7Activity.this, LiangtanActivity8.class);
+				startActivity(intent );
+				finish();
+			}
+		});
+		
 		
 		final ViewPager page = (ViewPager) findViewById(R.id.pager);
 		LayoutInflater layoutInflater = getLayoutInflater();
