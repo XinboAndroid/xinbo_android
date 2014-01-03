@@ -20,5 +20,6 @@
     <string name="RadioButton2">Linux</string>
     <string name="RadioButton3">Moc os</string>
     <string name="RadioButton4">Java</string>
+    <string name="title_activity_test">TestActivity</string>
 
 </resources>
