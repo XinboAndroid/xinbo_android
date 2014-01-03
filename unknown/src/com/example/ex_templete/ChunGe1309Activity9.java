@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class ChunGe1309Activity extends FragmentActivity implements OnClickListener
+public class ChunGe1309Activity9 extends FragmentActivity implements OnClickListener
 {
 
 	@Override
@@ -51,7 +51,7 @@ public class ChunGe1309Activity extends FragmentActivity implements OnClickListe
 	switch (v.getId())
 	{
 	case R.id.bnt_next:
-		Intent intent = new Intent(this,HuaCaiActivity.class);
+		Intent intent = new Intent(this,HuaCaiActivity10.class);
 		startActivity(intent );
 		break;
 

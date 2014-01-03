@@ -13,7 +13,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.Toast;
-
+//page 7
+//next to LiangtanActivity8
 public class ChenJiaLiang7Activity extends Activity{
 	ArrayList<View> arrayList=new ArrayList<View>();
 	boolean isFirst1;

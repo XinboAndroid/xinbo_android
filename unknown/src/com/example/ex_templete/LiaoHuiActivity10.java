@@ -67,7 +67,7 @@ public class LiaoHuiActivity10 extends Activity {
     	mradioButton1 = (RadioButton) findViewById(R.id.radio0);
     	mradioButton2 = (RadioButton) findViewById(R.id.radio1);
     	mradioButton3 = (RadioButton) findViewById(R.id.radio2);
-    	mbutton = (Button) findViewById(R.id.button1);
+    	mbutton = (Button) findViewById(R.id.btn_lito5);
     	
 		
 	}

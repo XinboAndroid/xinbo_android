@@ -12,7 +12,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
-
+//page 4
+// next to ZwtActivity5
 public class Number4Activity extends Activity {
 
 	private Button mButton;

@@ -18,7 +18,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class HuaCaiActivity extends Activity {
+public class HuaCaiActivity10 extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -67,7 +67,7 @@ public class HuaCaiActivity extends Activity {
 				});
 				if(position == layouts.size()-1) {
 					
-					Button button = (Button) layout.findViewById(R.id.button1);
+					Button button = (Button) layout.findViewById(R.id.btn_lito5);
 					button.setVisibility(View.VISIBLE);
 					button.setOnClickListener(new OnClickListener() {
 						
@@ -75,7 +75,7 @@ public class HuaCaiActivity extends Activity {
 						public void onClick(View v) {
 							
 							Intent intent = new Intent();
-							intent.setClass(HuaCaiActivity.this, liyongMainActivity.class);
+							intent.setClass(HuaCaiActivity10.this, LiyongMainActivity11.class);
 							startActivity(intent );
 							finish();
 						}

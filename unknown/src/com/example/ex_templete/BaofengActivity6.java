@@ -12,6 +12,8 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 
+//page 6
+//next to ChenJiaLiang7Activity
 public class BaofengActivity6 extends Activity {
 
 	@Override

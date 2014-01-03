@@ -62,7 +62,7 @@ private void viewPage() {
 		});		
 	}
         public void next(View v) {
-              Intent intent=new Intent(this,ChunGe1309Activity.class);
+              Intent intent=new Intent(this,ChunGe1309Activity9.class);
 			startActivity(intent);
 			finish();
 		}

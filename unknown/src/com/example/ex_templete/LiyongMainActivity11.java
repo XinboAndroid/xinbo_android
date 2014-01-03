@@ -4,12 +4,15 @@ import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -17,7 +20,7 @@ import android.widget.Toast;
  *	主Activity，程序入口类
  */
 @SuppressLint("NewApi")
-public class liyongMainActivity extends Activity {
+public class LiyongMainActivity11 extends Activity {
 	//定义ActionBar
 	private ActionBar actionBar;
 	
@@ -31,9 +34,19 @@ public class liyongMainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
+		Button next = (Button) findViewById(R.id.btn_lito5);
+		next.setOnClickListener(new OnClickListener()
+		{
+			@Override
+			public void onClick(View v)
+			{
+				startActivity(new Intent(LiyongMainActivity11.this, YeXiangActivity.class));
+			}
+		});
 		initView();
 		
 		initData();
+		
 	}
 
 	/**

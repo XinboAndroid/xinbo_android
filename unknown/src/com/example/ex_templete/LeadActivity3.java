@@ -9,7 +9,8 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
-
+//page 3
+//next Number4Activity
 public class LeadActivity3 extends Activity {
 
 	@Override

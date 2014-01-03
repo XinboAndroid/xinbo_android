@@ -5,6 +5,7 @@ import com.example.ex_templete.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class YeXiangActivity extends Activity
@@ -17,7 +18,8 @@ public class YeXiangActivity extends Activity
         setContentView(R.layout.activity_ye_xiang_lqm);
         //陈聪
         TextView mTextView = (TextView)findViewById(R.id.textview);
-        mTextView.setBackgroundResource(R.drawable.zhong500wan);
+//        mTextView.setBackgroundResource(R.drawable.zhong500wan);
+        mTextView.setBackgroundResource(R.drawable.qyc3);
         showToast();
     }
     

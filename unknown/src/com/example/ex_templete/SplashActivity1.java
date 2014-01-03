@@ -9,6 +9,8 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.ImageView;
 
+//第一个页面
+//第二个 YangPeiboActivity2
 public class SplashActivity1 extends Activity
 {
     private AnimationDrawable mGif;

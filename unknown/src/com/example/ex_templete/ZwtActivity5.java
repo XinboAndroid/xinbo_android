@@ -10,7 +10,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
-
+//page 5
+//next to BaofengActivity6
 public class ZwtActivity5 extends Activity
 {
     private int[] imagev = new int[]
