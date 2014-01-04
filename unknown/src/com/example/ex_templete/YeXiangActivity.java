@@ -19,7 +19,7 @@ public class YeXiangActivity extends Activity
         //陈聪
         TextView mTextView = (TextView)findViewById(R.id.textview);
 //        mTextView.setBackgroundResource(R.drawable.zhong500wan);
-        mTextView.setBackgroundResource(R.drawable.qyc3);
+        mTextView.setBackgroundResource(R.drawable.a);
         showToast();
     }
     

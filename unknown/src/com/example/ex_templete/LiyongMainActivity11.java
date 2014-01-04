@@ -34,17 +34,7 @@ public class LiyongMainActivity11 extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		Button next = (Button) findViewById(R.id.btn_lito5);
-		next.setOnClickListener(new OnClickListener()
-		{
-			@Override
-			public void onClick(View v)
-			{
-				startActivity(new Intent(LiyongMainActivity11.this, YeXiangActivity.class));
-			}
-		});
 		initView();
-		
 		initData();
 		
 	}
@@ -100,6 +90,7 @@ public class LiyongMainActivity11 extends Activity {
 	        toast.setView(v);
 	        toast.setDuration(toast.LENGTH_LONG);
 	    	toast.show();
+	    	startActivity(new Intent(LiyongMainActivity11.this, YeXiangActivity.class));
 	
 	}
 	

@@ -34,7 +34,9 @@
         </activity>
         <activity android:name="com.example.ex_templete.ZwtActivity5" >
         </activity>
-        <activity android:name="com.example.ex_templete.liyongMainActivity" >
+        <activity android:name="com.example.ex_templete.YeXiangActivity" >
+        </activity>
+        <activity android:name="com.example.ex_templete.LiyongMainActivity11" >
         </activity>
         <activity
             android:name="com.example.ex_templete.BaofengActivity6"
@@ -45,6 +47,10 @@
             android:label="@string/title_activity_chen_jia_liang7" >
         </activity>
         <activity android:name="com.example.ex_templete.LiangtanActivity8" >
+        </activity>
+        <activity android:name="com.example.ex_templete.ChunGe1309Activity9" >
+        </activity>
+        <activity android:name="com.example.ex_templete.HuaCaiActivity10" >
         </activity>
         <activity
             android:name="com.example.ex_templete.RuanActivity10"
