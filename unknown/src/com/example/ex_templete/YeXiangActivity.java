@@ -1,6 +1,6 @@
 package com.example.ex_templete;
 
-<<<<<<< .mine
+
 import android.R;
 =======
 import com.example.ex_templete.R;
