@@ -90,7 +90,7 @@ public class LiyongMainActivity11 extends Activity {
 	        toast.setView(v);
 	        toast.setDuration(toast.LENGTH_LONG);
 	    	toast.show();
-	    	startActivity(new Intent(LiyongMainActivity11.this, YeXiangActivity.class));
+	    	startActivity(new Intent(LiyongMainActivity11.this, Last5Activity.class));
 	
 	}
 	
