@@ -21,5 +21,6 @@
     <string name="RadioButton3">Moc os</string>
     <string name="RadioButton4">Java</string>
     <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_shanke">ShankeActivity</string>
 
 </resources>
