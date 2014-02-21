@@ -19,6 +19,7 @@ public class SplashActivity1 extends Activity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+        System.out.println("18:06");
         setContentView(R.layout.activity_splash);
         Log.e("SplashActivity1", "onCreate() 111 333");
         initUi();
