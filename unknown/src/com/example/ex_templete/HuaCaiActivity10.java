@@ -75,7 +75,7 @@ public class HuaCaiActivity10 extends Activity {
 						public void onClick(View v) {
 							
 							Intent intent = new Intent();
-							intent.setClass(HuaCaiActivity10.this, LiyongMainActivity11.class);
+							intent.setClass(HuaCaiActivity10.this, RubaobaoActivity.class);
 							startActivity(intent );
 							finish();
 						}

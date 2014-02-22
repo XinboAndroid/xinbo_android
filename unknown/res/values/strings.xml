@@ -22,5 +22,6 @@
     <string name="RadioButton4">Java</string>
     <string name="title_activity_test">TestActivity</string>
     <string name="title_activity_shanke">ShankeActivity</string>
+    <string name="title_activity_rubaobao">RubaobaoActivity</string>
 
 </resources>
