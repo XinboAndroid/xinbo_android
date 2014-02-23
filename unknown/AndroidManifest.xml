@@ -76,6 +76,10 @@
             android:name="com.example.ex_templete.RubaobaoActivity"
             android:label="@string/title_activity_rubaobao" >
         </activity>
+        <activity
+            android:name="com.example.ex_templete.LolActivity"
+            android:label="@string/title_activity_lol" >
+        </activity>
     </application>
 
 </manifest>
