@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="true">
+      <item android:drawable="@drawable/wuya0" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya1" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya2" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya3" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya4" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya5" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya6" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya7" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya8" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya9" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya10" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya11" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya12" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya13" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya14" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya15" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya16" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya17" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya18" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya19" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya20" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya21" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya22" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya23" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya24" android:duration="100"></item>
+	  <item android:drawable="@drawable/wuya25" android:duration="100"></item>
+</animation-list>
