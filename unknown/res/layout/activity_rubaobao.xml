@@ -13,12 +13,59 @@
         android:layout_marginTop="23dp"
         android:src="@drawable/wuya" />
 
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toLeftOf="@+id/textView2"
+        android:layout_toRightOf="@+id/textView1"
+        android:hint="需要4个数"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/img_wuya"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:text="我们是新博：" 
+        android:textColor="#4B0091"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentRight="true"
+        android:text="班的优秀学员" 
+        android:textColor="#4B0091"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rubaobao_image"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginBottom="34dp"
+        android:text="点→_→"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
     <ImageView
         android:id="@+id/rubaobao_image"
-        android:layout_width="wrap_content"
-        android:layout_height="300dp"
-        android:layout_alignParentLeft="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/editText1"
         android:layout_below="@+id/img_wuya"
+        android:layout_marginTop="51dp"
         android:background="@drawable/imagebtn_selector"
         android:onClick="next" />
 
