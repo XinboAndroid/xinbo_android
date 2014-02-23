@@ -24,5 +24,6 @@
     <string name="title_activity_shanke">ShankeActivity</string>
     <string name="title_activity_rubaobao">RubaobaoActivity</string>
     <string name="title_activity_lol">LolActivity</string>
+    <string name="title_activity_lo_lactivity2">LoLActivity2</string>
 
 </resources>

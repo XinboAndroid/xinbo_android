@@ -6,27 +6,24 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/pic_01"
-    tools:context=".LolActivity" >
+    tools:context=".LoLActivity2" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="94dp"
-        android:text="最近天气很不错"
-        android:textColor="#FF0033" />
-
-    <ImageButton
-        android:id="@+id/imageButton1_lol"
+    <Button
+        android:id="@+id/button_lol"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/textView1"
-        android:src="@drawable/droidman06"
-         />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:text="下一页" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:src="@drawable/zuosi" />
 
 </RelativeLayout>
