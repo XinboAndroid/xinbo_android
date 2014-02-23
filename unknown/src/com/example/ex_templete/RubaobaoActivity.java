@@ -2,6 +2,7 @@ package com.example.ex_templete;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 
 public class RubaobaoActivity extends Activity
@@ -12,6 +13,7 @@ public class RubaobaoActivity extends Activity
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_rubaobao);
+		startActivity(new Intent(this, ShankeActivity.class));
 	}
 
 	@Override
