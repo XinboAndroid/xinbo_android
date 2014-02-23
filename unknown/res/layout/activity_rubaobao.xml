@@ -61,11 +61,10 @@
 
     <ImageView
         android:id="@+id/rubaobao_image"
-        android:layout_width="100dp"
+        android:layout_width="110dp"
         android:layout_height="100dp"
-        android:layout_alignLeft="@+id/editText1"
-        android:layout_below="@+id/img_wuya"
-        android:layout_marginTop="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:background="@drawable/imagebtn_selector"
         android:onClick="next" />
 
