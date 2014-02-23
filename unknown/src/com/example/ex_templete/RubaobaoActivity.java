@@ -32,9 +32,6 @@ public class RubaobaoActivity extends Activity
 		tp1.setFakeBoldText(true);
 		tp2.setFakeBoldText(true);
 
-	/**
-	 * button点击事件
-	 */
 		final ImageView imgWuyaView=(ImageView) findViewById(R.id.img_wuya);
 		new Thread(new Runnable()
 		{
