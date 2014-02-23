@@ -1,10 +1,11 @@
 package com.example.ex_templete;
 
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Bundle;
 import android.graphics.drawable.AnimationDrawable;
 import android.view.Menu;
+import android.view.View;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
@@ -16,6 +17,14 @@ public class RubaobaoActivity extends Activity
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_rubaobao);
+
+	}
+
+	/**
+	 * button点击事件
+	 */
+	public void next(View v) {
+
 		final ImageView imgWuyaView=(ImageView) findViewById(R.id.img_wuya);
 		new Thread(new Runnable()
 		{
@@ -44,7 +53,7 @@ public class RubaobaoActivity extends Activity
 				AnimationUtils.loadAnimation(RubaobaoActivity.this, 
 						R.anim.wuya_set));
 	}
-
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu)
 	{
