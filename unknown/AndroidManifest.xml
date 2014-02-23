@@ -79,10 +79,15 @@
         <activity
             android:name="com.example.ex_templete.LolActivity"
             android:label="@string/title_activity_lol" >
+            
         </activity>
         <activity
             android:name="com.example.ex_templete.LoLActivity2"
             android:label="@string/title_activity_lo_lactivity2" >
+        </activity>
+        <activity
+            android:name="com.example.ex_templete.LoLActivity3"
+            android:label="@string/title_activity_lo_lactivity3" >
         </activity>
     </application>
 
