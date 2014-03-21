@@ -7,7 +7,7 @@
     <ImageView
         android:id="@+id/imageview"
         android:layout_width="fill_parent"
-        android:layout_height="400dp"
+        android:layout_height="300dp"
         android:scaleType="fitCenter"
         android:src="@drawable/xianjian03" />
 
