@@ -24,6 +24,7 @@ public class BaofengActivity6 extends Activity {
 		System.out.println("test");		
 		Log.e("test", "onCreate()");
 		Log.e("test", "onCreate()");
+		Log.e("test", "2014-0411 18:16");
 		Log.e("test", "onCreate()");
 		Log.e("test", "onCreate()");
 		//12.2 17:42 新增注释
