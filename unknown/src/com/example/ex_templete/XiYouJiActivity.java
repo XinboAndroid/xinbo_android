@@ -21,6 +21,7 @@ public class XiYouJiActivity extends Activity implements OnClickListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_xi_you_ji);
 
+        Log.e("2014/04/12修改----", "by______HQH");
         tangseng = (ImageView) findViewById(R.id.tangseng);
         ImageView tangseng2 = (ImageView) findViewById(R.id.tangseng2);
         tangseng2.setOnClickListener(this);
@@ -64,13 +65,14 @@ public class XiYouJiActivity extends Activity implements OnClickListener
             break;
         case 1:
             tangseng.setImageResource(R.drawable.zhubajie);
+            Log.e("2014/04/12修改----", "by______XYD");
             break;
         case 2:
-            // 沙僧
             tangseng.setImageResource(R.drawable.shazeng);
-            Log.e("2014/04/12修改----", "by______LWF");
+            Log.e("2014/04/12修改----", "by______ZYH");
             break;
         case 3:
+            //下一组的跳转事件
             tangseng.setImageResource(R.drawable.xiyouji_tangseng);
             startActivity(new Intent(this, SuibianActivity.class));
             break;
