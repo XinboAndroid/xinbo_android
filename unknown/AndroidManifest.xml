@@ -96,6 +96,10 @@
             android:name="com.example.ex_templete.SuibianActivity"
             android:label="@string/title_activity_suibian" >
         </activity>
+        <activity
+            android:name="com.example.ex_templete.XiYouJiActivity"
+            android:label="@string/title_activity_xi_you_ji" >
+        </activity>
     </application>
 
 </manifest>
