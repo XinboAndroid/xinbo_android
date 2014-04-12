@@ -2,6 +2,7 @@ package com.example.ex_templete;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
@@ -12,19 +13,18 @@ public class XiYouJiActivity extends Activity implements OnClickListener
 {
 
     private ImageView tangseng;
+    private int times;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_xi_you_ji);
-        
+
         tangseng = (ImageView) findViewById(R.id.tangseng);
-        ImageView tangseng2=(ImageView) findViewById(R.id.tangseng2);
+        ImageView tangseng2 = (ImageView) findViewById(R.id.tangseng2);
         tangseng2.setOnClickListener(this);
-       
-        
-        
+
     }
 
     @Override
@@ -41,8 +41,36 @@ public class XiYouJiActivity extends Activity implements OnClickListener
         switch (v.getId())
         {
         case R.id.tangseng2:
+            changeImage();
+            times++;
+            if (times > 3)
+            {
+                times = 0;
+            }
+            break;
+
+        default:
+            break;
+        }
+    }
+
+    private void changeImage()
+    {
+        switch (times)
+        {
+        case 0:
             tangseng.setImageResource(R.drawable.sunwukong);
             Log.e("2014/04/12修改----", "by______LWF");
+            break;
+        case 1:
+            tangseng.setImageResource(R.drawable.zhubajie);
+            break;
+        case 2:
+            // 沙僧
+            break;
+        case 3:
+            tangseng.setImageResource(R.drawable.xiyouji_tangseng);
+            startActivity(new Intent(this, SuibianActivity.class));
             break;
 
         default:
