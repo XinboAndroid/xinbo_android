@@ -29,5 +29,6 @@
     <string name="title_activity_yi_xin">YiXinActivity</string>
     <string name="title_activity_suibian">SuibianActivity</string>
     <string name="title_activity_xi_you_ji">XiYouJiActivity</string>
+    <string name="title_activity_haha">HahaActivity</string>
 
 </resources>
