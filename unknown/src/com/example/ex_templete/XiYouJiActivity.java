@@ -2,6 +2,7 @@ package com.example.ex_templete;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -10,14 +11,20 @@ import android.widget.ImageView;
 public class XiYouJiActivity extends Activity implements OnClickListener
 {
 
+    private ImageView tangseng;
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_xi_you_ji);
         
-        findViewById(R.id.tangseng2).setOnClickListener(this);
+        tangseng = (ImageView) findViewById(R.id.tangseng);
+        ImageView tangseng2=(ImageView) findViewById(R.id.tangseng2);
+        tangseng2.setOnClickListener(this);
        
+        
+        
     }
 
     @Override
@@ -34,7 +41,8 @@ public class XiYouJiActivity extends Activity implements OnClickListener
         switch (v.getId())
         {
         case R.id.tangseng2:
-            
+            tangseng.setImageResource(R.drawable.sunwukong);
+            Log.e("2014/04/12修改----", "by______LWF");
             break;
 
         default:
