@@ -25,7 +25,7 @@ public class HahaActivity extends Activity
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
-    	Log.e("HahaActivity", "onCreate() 04 14 14:46");
+    	Log.e("HahaActivity", "onCreate() 2014 04 14 ");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tmall_guide);
         //初始化ViewPager
