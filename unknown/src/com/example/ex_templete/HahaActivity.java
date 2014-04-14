@@ -25,6 +25,7 @@ public class HahaActivity extends Activity
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
+    	Log.e("HahaActivity", "onCreate() 2014 04 14 14:46");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tmall_guide);
         //初始化ViewPager
@@ -33,6 +34,7 @@ public class HahaActivity extends Activity
 
     private void initViewPager()
     {
+    	
         for(int i=0;i<imageId_guide.length;i++){
             View layout = getLayoutInflater().inflate(R.layout.guide_viewpager_item, null);
             ImageView image=(ImageView) layout.findViewById(R.id.imageView1);
