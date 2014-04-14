@@ -75,7 +75,6 @@ public class XiYouJiActivity extends Activity implements OnClickListener
             break;
         case 3:
             //下一组的跳转事件
-            tangseng.setImageResource(R.drawable.xiyouji_tangseng);
             startActivity(new Intent(this, SuibianActivity.class));
             break;
 
