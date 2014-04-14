@@ -70,8 +70,8 @@ public class XiYouJiActivity extends Activity implements OnClickListener
 
             break;
         case 2:
-            tangseng.setImageResource(R.drawable.shazeng);
-            Log.e("2014/04/12修改----", "by______ZYH");
+            tangseng.setImageResource(R.drawable.shazeng1);
+            Log.e("2014/04/12修改----", "by______Z YH");
             break;
         case 3:
             //下一组的跳转事件
