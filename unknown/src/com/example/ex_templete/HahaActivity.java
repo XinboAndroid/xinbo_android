@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -91,7 +92,9 @@ public class HahaActivity extends Activity
     @Override
     public boolean onCreateOptionsMenu(Menu menu)
     {
-        // Inflate the menu; this adds items to the action bar if it is present.
+
+    	Log.e("HahaActivity", "onCreateOptionsMenu() 2014 04 14 14:55");
+        
         getMenuInflater().inflate(R.menu.tmall_guide, menu);
         return true;
     }
