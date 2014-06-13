@@ -1,5 +1,7 @@
 package com.example.ex_templete;
 
+import com.example._xinbo09.Xinbo09Activity;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -26,6 +28,7 @@ public class GengSuiBianActivity extends Activity
 	public void btn(View v)
 	{
 		// TODO Auto-generated method stub
-		Intent intent=new Intent();
+		Intent intent=new Intent(this,Xinbo09Activity.class);
+		startActivity(intent);
 	}
 }
