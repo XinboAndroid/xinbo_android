@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set>
+    
+    <!-- 补间动画_透明度-->
+	<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:duration="3000"
+	    android:fromAlpha="0.0"
+	    android:toAlpha="1.0" >
+	</alpha>
+
+	<!-- 补间动画_旋转-->
+	<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:fromDegrees="-30" 
+	    android:toDegrees="30"
+	    android:duration="3000"
+	    android:fillAfter="true"
+	    >
+	</rotate>
+
+	<!-- 补间动画_大小-->
+	<scale xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:fromXScale="0.5"
+	    android:toXScale="1.5"
+	    android:fromYScale="0.5"
+	    android:toYScale="1.5"
+	    android:duration="3000"
+	    android:fillAfter="true"
+	    >
+	</scale>
+	
+	<!-- 补间动画_移动 -->
+	<translate xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:fromXDelta="0"
+	    android:fromYDelta="0"
+	    android:toXDelta="150"
+	    android:toYDelta="-50"
+	    android:interpolator="@android:anim/bounce_interpolator"
+	    android:fillAfter="true"
+	    android:duration="3000"
+	    >
+	</translate>
+    
+</set>

@@ -123,6 +123,12 @@
             android:name="com.example.ex_templete.GengSuiBianActivity"
             android:label="@string/title_activity_geng_sui_bian" >
         </activity>
+        <activity
+            android:name="com.example._xinbo09.Xinbo09Activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_xinbo09"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
     </application>
 
 </manifest>
