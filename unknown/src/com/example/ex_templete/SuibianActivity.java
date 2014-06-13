@@ -25,8 +25,8 @@ public class SuibianActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// 注释
-				Intent intent=new Intent();// 这个是垃圾
-				
+				Intent intent=new Intent(SuibianActivity.this,GengSuiBianActivity.class);// 这个是垃圾
+				startActivity(intent);
 			}
 		});
 	}
