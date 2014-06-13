@@ -28,7 +28,7 @@ public class HahaActivity extends Activity
     	Log.e("HahaActivity", "onCreate() 2014 04 14 ");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tmall_guide);
-        //初始化ViewPager
+        //初始化ViewPager  2014-06-13 16:16
         initViewPager();
     }
 
