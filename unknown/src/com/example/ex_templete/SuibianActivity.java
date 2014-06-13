@@ -19,7 +19,7 @@ public class SuibianActivity extends Activity {
 		ImageView image = (ImageView) findViewById(R.id.suibian_imageView1);
 		Animation animation = AnimationUtils.loadAnimation(this, R.anim.suibian_animation);
 		image.startAnimation(animation);
-		
+		// test 
 		findViewById(R.id.suibian_button1).setOnClickListener(new OnClickListener() {
 			
 			@Override
