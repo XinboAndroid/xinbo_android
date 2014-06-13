@@ -24,6 +24,7 @@ public class SuibianActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
+				// 注释
 				Intent intent=new Intent();
 				
 			}
