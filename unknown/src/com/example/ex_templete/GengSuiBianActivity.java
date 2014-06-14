@@ -17,7 +17,7 @@ public class GengSuiBianActivity extends Activity
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_geng_sui_bian);
 	}
-
+//东东
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu)
 	{
