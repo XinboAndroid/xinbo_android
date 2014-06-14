@@ -35,5 +35,6 @@
     <string name="title_activity_xinbo09">Xinbo09Activity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_wonder">WonderActivity</string>
 
 </resources>

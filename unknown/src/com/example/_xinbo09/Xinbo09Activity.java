@@ -13,14 +13,15 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.ex_templete.R;
+import com.example.ex_templete.WonderActivity;
 import com.example.ex_templete.util.SystemUiHider;
 
 public class Xinbo09Activity extends Activity {
 
 	public void btn_gotonext(View v) {
-		Toast.makeText(Xinbo09Activity.this, "离开这里，  \n点击进入下一个页面", Toast.LENGTH_SHORT).show();
-		Intent intent = new Intent();
-//		startActivity(intent);
+		Intent intent = new Intent(this,WonderActivity.class);
+		startActivity(intent);
+		finish();
 	}
 	
 	private static final boolean AUTO_HIDE = true;

@@ -129,6 +129,10 @@
             android:label="@string/title_activity_xinbo09"
             android:theme="@style/FullscreenTheme" >
         </activity>
+        <activity
+            android:name="com.example.ex_templete.WonderActivity"
+            android:label="@string/title_activity_wonder" >
+        </activity>
     </application>
 
 </manifest>
