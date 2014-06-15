@@ -11,10 +11,10 @@ import android.view.View;
 
 public class HuChunJieActivity extends Activity {
 	
-	public void xinbo_btn(View v) {
+	public void xinbo_btn(View v) {//按钮点击事件
 		//Intent intent=new Intent();
 //		startActivity(intent);
-//		finish();
+//		finish();                   
 
 	}
 	
