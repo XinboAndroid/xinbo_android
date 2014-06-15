@@ -141,6 +141,14 @@
             android:name="com.example.ex_templete.LwkActivity"
             android:label="@string/title_activity_lwk" >
         </activity>
+        <activity
+            android:name="com.example.ex_templete.AndyActivity"
+            android:label="@string/title_activity_andy" >
+        </activity>
+        <activity
+            android:name="com.example.ex_templete.Pager2Activity"
+            android:label="@string/title_activity_pager2" >
+        </activity>
     </application>
 
 </manifest>
