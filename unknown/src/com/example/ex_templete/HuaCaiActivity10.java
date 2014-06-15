@@ -28,11 +28,11 @@ public class HuaCaiActivity10 extends Activity {
 		final ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
 		
 		LayoutInflater inflater = getLayoutInflater();
-	//2014.1.2 吴****     
+	//2014.1.2 鍚�***     
 		View layout1 = inflater.inflate(R.layout.pager_item, null);
 		View layout2 = inflater.inflate(R.layout.pager_item, null);
 		View layout3 = inflater.inflate(R.layout.pager_item_huacai, null);
-		// 呵呵 不知道加什么了 就加个注释吧
+		// 鍛靛懙 涓嶇煡閬撳姞浠�箞浜�灏卞姞涓敞閲婂惂
 		View layout4 = inflater.inflate(R.layout.pager_item, null);
 		View layout5 = inflater.inflate(R.layout.pager_item, null);
 		
@@ -50,9 +50,9 @@ public class HuaCaiActivity10 extends Activity {
 			public Object instantiateItem(View container, int position) {
 				View layout = layouts.get(position);
 				TextView textView = (TextView) layout.findViewById(R.id.textView1);
-				textView.setText(String.valueOf("-第" + (position + 1) + "页-"));
+				textView.setText(String.valueOf("-绗� + (position + 1)" + "椤�"));
 				if((position+1)==3){
-					textView.setText("呵呵 不知道加什么了 就加个注释吧,表示我来过");
+					textView.setText("鍛靛懙 涓嶇煡閬撳姞浠�箞浜�灏卞姞涓敞閲婂惂,琛ㄧず鎴戞潵杩�");
 				}
 				final ImageView imageView = (ImageView) layout.findViewById(R.id.imageView1);
 				imageView.post(new Runnable() {

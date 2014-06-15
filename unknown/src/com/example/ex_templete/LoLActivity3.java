@@ -11,8 +11,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 public class LoLActivity3 extends Activity {
-	private String[] name={"德邦总管","不详之刃","探险家","德玛西亚之力","光辉女郎","暗夜猎手",
-			"海洋之灾","皮城女警","冰晶凤凰","鬼术妖姬"};
+	private String[] name={"寰烽偊鎬荤","涓嶈涔嬪垉","鎺㈤櫓瀹�","寰风帥瑗夸簹涔嬪姏","鍏夎緣濂抽儙","鏆楀鐚庢墜",
+			"娴锋磱涔嬬伨","鐨煄濂宠","鍐版櫠鍑ゅ嚢","楝兼湳濡栧К"};
 	
 
 	@Override

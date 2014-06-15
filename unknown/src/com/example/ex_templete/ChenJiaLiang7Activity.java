@@ -28,12 +28,12 @@ public class ChenJiaLiang7Activity extends Activity{
 	private ImageButton imageButton4;
 	private ImageButton imageButton5;
 	private int num=0;
-	//提前祝圣诞快乐!--修改记录2013-12-2-22:33
-	//锟斤拷锟斤拷锟斤拷一锟斤拷锟斤拷锟斤拷锟斤拷冢锟�
+	//閹绘劕澧犵粊婵嗘攻鐠囩偛鎻╂稊锟�-娣囶喗鏁肩拋鏉跨秿2013-12-2-22:33
+	//闁跨喐鏋婚幏鐑芥晸閺傘倖瀚归柨鐔告灮閹疯渹绔撮柨鐔告灮閹风兘鏁撻弬銈嗗闁跨喐鏋婚幏鐑芥晸閺傘倖瀚归崘銏ゆ晸閿燂拷	
 	public void fun(){
 		if(num==5){
 
-			Toast.makeText(getApplicationContext(), "恭喜你过关了！", Toast.LENGTH_SHORT).show();
+			Toast.makeText(getApplicationContext(), "閹厼鏋╂担鐘虹箖閸忓厖绨￠敍锟�,", Toast.LENGTH_SHORT).show();
 			startActivity(new Intent(this,LiangtanActivity8.class));
 			finish();
 		}
@@ -43,7 +43,7 @@ public class ChenJiaLiang7Activity extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_chen_jia_liang7);
-		//添加chenjialiangActivity按钮点击事件  2013.01.02 22:07
+		//濞ｈ濮瀋henjialiangActivity閹稿鎸抽悙鐟板毊娴滃娆� 2013.01.02 22:07
 		findViewById(R.id.btn_next).setOnClickListener(new OnClickListener() {
 			
 			@Override

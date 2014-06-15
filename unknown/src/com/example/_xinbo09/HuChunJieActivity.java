@@ -22,7 +22,8 @@ public class HuChunJieActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_hu_chun_jie);
+	//没有布局文件
+	//	setContentView(R.layout.activity_hu_chun_jie);
 		
 		
 	}
@@ -30,7 +31,7 @@ public class HuChunJieActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.hu_chun_jie, menu);
+	//	getMenuInflater().inflate(R.menu.hu_chun_jie, menu);
 		return true;
 	}
 

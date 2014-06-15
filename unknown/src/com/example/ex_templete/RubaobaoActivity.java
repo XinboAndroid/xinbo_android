@@ -68,7 +68,7 @@ public class RubaobaoActivity extends Activity {
 			startActivity(new Intent(RubaobaoActivity.this,
 					ShankeActivity.class));
 		} else {
-			Toast.makeText(RubaobaoActivity.this, "笨蛋，输错啦！", Toast.LENGTH_LONG)
+			Toast.makeText(RubaobaoActivity.this, "绗ㄨ泲锛岃緭閿欏暒锛�", Toast.LENGTH_LONG)
 					.show();
 		}
 

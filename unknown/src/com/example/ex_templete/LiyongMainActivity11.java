@@ -17,14 +17,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 /**
- *	主Activity，程序入口类
+ *	涓籄ctivity锛岀▼搴忓叆鍙ｇ被
  */
 @SuppressLint("NewApi")
 public class LiyongMainActivity11 extends Activity {
-	//定义ActionBar
+	//瀹氫箟ActionBar
 	private ActionBar actionBar;
 	
-	//定义Handler句柄
+	//瀹氫箟Handler鍙ユ焺
 	private final Handler handler = new Handler();
 
 	
@@ -40,33 +40,33 @@ public class LiyongMainActivity11 extends Activity {
 	}
 
 	/**
-	 * 初始化组件
+	 * 鍒濆鍖栫粍浠�
 	 */
 	private void initView(){
-		//�õ�ActionBar
+		//锟矫碉拷ActionBar
 		actionBar = getActionBar();
 	}
 	
 	/**
-	 * 初始化数据
+	 * 鍒濆鍖栨暟鎹�
 	 */
 	private void initData(){
-		//设置ActionBar标题不显示
+		//璁剧疆ActionBar鏍囬涓嶆樉绀�
 		actionBar.setDisplayShowTitleEnabled(false);
 		
-		//设置ActionBar的背景
+		//璁剧疆ActionBar鐨勮儗鏅�
 		actionBar.setBackgroundDrawable(getResources().getDrawable(R.drawable.actionbar_gradient_bg));
 		actionBar.setIcon(R.drawable.xianjian_logo);
-		//设置ActionBar左边默认的图标是否可用
+		//璁剧疆ActionBar宸﹁竟榛樿鐨勫浘鏍囨槸鍚﹀彲鐢�
 		actionBar.setDisplayUseLogoEnabled(true);
 		
-		//设置导航模式为Tab选项标签导航模式
+		//璁剧疆瀵艰埅妯″紡涓篢ab閫夐」鏍囩瀵艰埅妯″紡
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 		
-		//设置ActinBar添加Tab选项标签
-		actionBar.addTab(actionBar.newTab().setText("弓箭手").setTabListener(new liyongTabListener<liyongFragmentPage1>(this,liyongFragmentPage1.class)));
-		actionBar.addTab(actionBar.newTab().setText("刺客").setTabListener(new liyongTabListener<liyongFragmentPage2>(this,liyongFragmentPage2.class)));
-		actionBar.addTab(actionBar.newTab().setText("剑士").setTabListener(new liyongTabListener<liyongFragmentPage3>(this,liyongFragmentPage3.class)));
+		//璁剧疆ActinBar娣诲姞Tab閫夐」鏍囩
+		actionBar.addTab(actionBar.newTab().setText("寮撶鎵�").setTabListener(new liyongTabListener<liyongFragmentPage1>(this,liyongFragmentPage1.class)));
+		actionBar.addTab(actionBar.newTab().setText("鍒哄").setTabListener(new liyongTabListener<liyongFragmentPage2>(this,liyongFragmentPage2.class)));
+		actionBar.addTab(actionBar.newTab().setText("鍓戝＋").setTabListener(new liyongTabListener<liyongFragmentPage3>(this,liyongFragmentPage3.class)));
 				
 	}
 	
@@ -81,12 +81,12 @@ public class LiyongMainActivity11 extends Activity {
 			
 			toast = new Toast(this);
 		}
-//		自定义toast
+//		鑷畾涔塼oast
 		   LayoutInflater inflate = (LayoutInflater)
 	                this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 	        View v = inflate.inflate(R.layout.custom_toast, null);
 	        TextView tv = (TextView)v.findViewById(R.id.textView1);
-	        tv.setText("哈喽");
+	        tv.setText("鍝堝柦");
 	        toast.setView(v);
 	        toast.setDuration(toast.LENGTH_LONG);
 	    	toast.show();
@@ -98,7 +98,7 @@ public class LiyongMainActivity11 extends Activity {
 	public boolean onOptionsItemSelected(final MenuItem item) {
 		switch (item.getItemId()) {
 		case R.id.menu_refresh:
-			//选中刷新按钮后刷新一秒钟
+			//閫変腑鍒锋柊鎸夐挳鍚庡埛鏂颁竴绉掗挓
 			item.setActionView(R.layout.actionbar_progress);
 			handler.postDelayed(new Runnable() {
 				public void run() {

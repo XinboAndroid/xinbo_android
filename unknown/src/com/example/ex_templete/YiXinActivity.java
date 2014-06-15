@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class YiXinActivity extends Activity
 {
 
-	private String[] gupiaoname = {"中国软件","新南洋","喜临门","东风汽车","上海机场"};
+	private String[] gupiaoname = {"涓浗杞欢","鏂板崡娲�","鍠滀复闂�","涓滈姹借溅","涓婃捣鏈哄満"};
 	private String[] gupiaoprice = {"40.51","20.81","11.78","3.14","13.61"};
 	private String[] gupiaoupordown = {"+9.28%","+8.27%","+8.57%","-3.9%","-1.38%"};
 	private ListView gupiao_list;
@@ -29,7 +29,7 @@ public class YiXinActivity extends Activity
 
 	public void gotoNext(View v)
 	{
-		//到下一个页面的方法
+		//鍒颁笅涓�釜椤甸潰鐨勬柟娉�
 	}
 	
 	class MyAdapter extends BaseAdapter

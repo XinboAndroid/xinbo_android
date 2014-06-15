@@ -113,11 +113,7 @@
         <activity
             android:name="com.example.ex_templete.OOActivity"
             android:label="@string/title_activity_hehe" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+          
         </activity>
         <activity
             android:name="com.example.ex_templete.GengSuiBianActivity"
@@ -132,6 +128,15 @@
         <activity
             android:name="com.example.ex_templete.WonderActivity"
             android:label="@string/title_activity_wonder" >
+        </activity>
+        <activity
+            android:name="com.example.ex_templete.WangweiActivity"
+            android:label="@string/title_activity_wangwei" >
+              <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
