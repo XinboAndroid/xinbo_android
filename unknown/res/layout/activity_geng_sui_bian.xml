@@ -21,7 +21,6 @@
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="98dp"
-        android:visibility="invisible"
         android:onClick="btn"
         android:text="Button" />
 

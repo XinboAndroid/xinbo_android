@@ -1,11 +1,8 @@
 package com.example._xinbo09;
 
-import com.example.ex_templete.R;
-import com.example.ex_templete.R.layout;
-import com.example.ex_templete.R.menu;
-
-import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 

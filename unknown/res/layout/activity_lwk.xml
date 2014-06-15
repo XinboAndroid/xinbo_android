@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LwkActivity" >
+
+    <com.example.ex_templete.Lwk_View
+        android:id="@+id/lwkView1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/SB_lwk2"
+        android:layout_marginTop="14dp" />
+
+    <Button
+        android:id="@+id/Btn_lwk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"
+        android:text="点击" />
+
+    <SeekBar
+        android:id="@+id/SB_lwk2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TV_lwk2" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="i30 j70" />
+
+    <TextView
+        android:id="@+id/TV_lwk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="iiiiiiiiii" />
+
+    <SeekBar
+        android:id="@+id/SB_lwk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TV_lwk1" />
+
+    <TextView
+        android:id="@+id/TV_lwk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/SB_lwk"
+        android:text="jjjjjjjjjj" />
+
+</RelativeLayout>
