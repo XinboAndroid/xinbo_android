@@ -15,14 +15,14 @@ public class HuChunJieActivity extends Activity {
 		//Intent intent=new Intent();
 //		startActivity(intent);
 //		finish();                   
-
+        int a;
 	}
 	
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-	//ц╩сп╡╪╬жнд╪Ч
+	//ц╩О©╫п╡О©╫О©╫О©╫О©╫д╪О©╫
 	//	setContentView(R.layout.activity_hu_chun_jie);
 		
 		
