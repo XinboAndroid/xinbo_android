@@ -149,6 +149,10 @@
             android:name="com.example.ex_templete.Pager2Activity"
             android:label="@string/title_activity_pager2" >
         </activity>
+        <activity
+            android:name="com.example.ex_templete.OpxinActivity"
+            android:label="@string/title_activity_opxin" >
+        </activity>
     </application>
 
 </manifest>
