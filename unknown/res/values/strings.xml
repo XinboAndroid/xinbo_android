@@ -43,5 +43,6 @@
     <string name="title_activity_pager2">Pager2Activity</string>
     <string name="title_activity_opxin">OpxinActivity</string>
     <string name="title_activity_caowei">CaoweiActivity</string>
+    <string name="title_activity_chh">CHHActivity</string>
 
 </resources>

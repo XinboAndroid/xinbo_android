@@ -59,4 +59,14 @@
         android:layout_below="@+id/SB_lwk"
         android:text="jjjjjjjjjj" />
 
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textView1"
+         android:onClick="btn"
+        android:text="Button" />
+
 </RelativeLayout>

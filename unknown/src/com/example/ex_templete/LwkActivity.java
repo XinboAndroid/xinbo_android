@@ -102,7 +102,10 @@ public class LwkActivity extends Activity {
 		
 		lwk_View.setIJ(a,b);
 	}
-		
+		public void btn(View v)
+		{
+			startActivity(new Intent(this,CHHActivity.class));
+		}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.

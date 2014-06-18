@@ -157,6 +157,10 @@
             android:name="com.example.ex_templete.CaoweiActivity"
             android:label="@string/title_activity_caowei" >
         </activity>
+        <activity
+            android:name="com.example.ex_templete.CHHActivity"
+            android:label="@string/title_activity_chh" >
+        </activity>
     </application>
 
 </manifest>
