@@ -46,7 +46,7 @@ public class LwkActivity extends Activity {
 					
 					@Override
 					public void onClick(View v) {
-						Intent intent = new Intent(LwkActivity.this,AndyActivity.class);
+						Intent intent = new Intent(LwkActivity.this,CaoweiActivity.class);
 						startActivity(intent);
 						
 					}

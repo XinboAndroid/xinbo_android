@@ -153,6 +153,10 @@
             android:name="com.example.ex_templete.OpxinActivity"
             android:label="@string/title_activity_opxin" >
         </activity>
+        <activity
+            android:name="com.example.ex_templete.CaoweiActivity"
+            android:label="@string/title_activity_caowei" >
+        </activity>
     </application>
 
 </manifest>
