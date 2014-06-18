@@ -75,6 +75,7 @@ public class Xinbo09Activity extends Activity {
 							// If the ViewPropertyAnimator APIs aren't
 							// available, simply show or hide the in-layout UI
 							// controls.
+							// a
 							controlsView.setVisibility(visible ? View.VISIBLE
 									: View.GONE);
 						}
