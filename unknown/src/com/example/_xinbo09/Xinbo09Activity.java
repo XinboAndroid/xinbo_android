@@ -157,7 +157,7 @@ public class Xinbo09Activity extends Activity {
 			mSystemUiHider.hide();
 		}
 	};
-
+//hahahahahahahaha
 	/**
 	 * Schedules a call to hide() in [delay] milliseconds, canceling any
 	 * previously scheduled calls.
