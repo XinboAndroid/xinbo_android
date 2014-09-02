@@ -58,6 +58,7 @@ public class LwkActivity extends Activity {
 				// TODO Auto-generated method stub
 				
 			}
+			//啦啦啦啦啦
 			
 			@Override
 			public void onProgressChanged(SeekBar seekBar,final int progress,
