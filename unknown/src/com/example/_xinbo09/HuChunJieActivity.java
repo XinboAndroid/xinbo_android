@@ -13,6 +13,8 @@ public class HuChunJieActivity extends Activity {
 //		startActivity(intent);
 //		finish();                   
         int a;
+        int b;
+        int c;
 	}
 	
 
