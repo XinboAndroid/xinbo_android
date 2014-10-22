@@ -12,7 +12,7 @@ import com.example.ex_templete.R;
 public class HuChunJieActivity extends Activity {
 
 	/**
-	 * sadfasdf
+	 * sadfasdf21212121
 	 * 
 	 * @param v
 	 */
