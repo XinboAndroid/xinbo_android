@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 
+import com.example.ex_templete.R;
+
 public class HuChunJieActivity extends Activity {
 
 	/**
@@ -33,7 +35,7 @@ public class HuChunJieActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		// getMenuInflater().inflate(R.menu.hu_chun_jie, menu);
+		getMenuInflater().inflate(R.menu.andy, menu);
 		return true;
 	}
 
