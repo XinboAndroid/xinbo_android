@@ -21,6 +21,7 @@ public class Xinbo09Activity extends Activity {
 	public void btn_gotonext(View v) {
 		Intent intent = new Intent(this,WonderActivity.class);
 		startActivity(intent);//nnnn
+		// 关闭
 		finish();
 	}
 	
