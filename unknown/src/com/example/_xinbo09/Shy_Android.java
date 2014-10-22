@@ -5,6 +5,10 @@ public class Shy_Android {
 	 * 000
 	 */
 	/*
-	 * 我是来捣乱
+
 	 */
+	private void syso() {
+		int i=0;
+
+	}
 }
