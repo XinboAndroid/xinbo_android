@@ -44,5 +44,6 @@
     <string name="title_activity_opxin">OpxinActivity</string>
     <string name="title_activity_caowei">CaoweiActivity</string>
     <string name="title_activity_chh">CHHActivity</string>
+    <string name="title_activity_test_activity1">TestActivity1</string>
 
 </resources>
