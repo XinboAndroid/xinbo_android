@@ -14,6 +14,7 @@ public class GengSuiBianActivity extends Activity
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
+		//4444444
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_geng_sui_bian);
 	}
