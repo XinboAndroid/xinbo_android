@@ -17,6 +17,7 @@ public class HuChunJieActivity extends Activity {
 	 */
 	public void xinbo_btn(View v) {
 		Intent intent = new Intent();
+		intent.setClass(this, Xinbo09Activity.class);
 		startActivity(intent);
 		finish();
 		int a;
@@ -29,7 +30,6 @@ public class HuChunJieActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		// û�в����ļ�
 		// setContentView(R.layout.activity_hu_chun_jie);
-
 	}
 
 	@Override
