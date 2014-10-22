@@ -8,6 +8,10 @@ import android.view.View;
 
 public class HuChunJieActivity extends Activity {
 	
+	/**
+	 * sadfasdf
+	 * @param v
+	 */
 	public void xinbo_btn(View v) {
 	Intent intent=new Intent();
 //		startActivity(intent);
