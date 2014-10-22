@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 
+import com.example.ex_templete.AndyActivity;
 import com.example.ex_templete.R;
 
 public class HuChunJieActivity extends Activity {
@@ -17,7 +18,7 @@ public class HuChunJieActivity extends Activity {
 	 */
 	public void xinbo_btn(View v) {
 		Intent intent = new Intent();
-		intent.setClass(this, Xinbo09Activity.class);
+		intent.setClass(this, AndyActivity.class);
 		startActivity(intent);
 		finish();
 		int a;
