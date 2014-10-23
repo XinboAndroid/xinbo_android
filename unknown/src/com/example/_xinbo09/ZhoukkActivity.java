@@ -12,8 +12,7 @@ import com.example.ex_templete.R;
 public class HuChunJieActivity extends Activity {
 
 	/**
-	 * sadfasdf21212121
-	 * 
+	 *kkkkkkkkkkkk
 	 * @param v
 	 */
 	public void xinbo_btn(View v) {
