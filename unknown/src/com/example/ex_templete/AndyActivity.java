@@ -14,6 +14,7 @@ public class AndyActivity extends FragmentActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_andy);
 		// 初始化Fragment
+		//123
 		initFragment();
 	}
 
