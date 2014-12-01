@@ -31,6 +31,7 @@ public class HuChunJieActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		// û�в����ļ�
 		// setContentView(R.layout.activity_hu_chun_jie);
+		//我只是试试有没有效果
 	}
 
 	@Override
