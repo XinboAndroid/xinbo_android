@@ -1,11 +1,13 @@
-package com.example.ex_templete;
+package com.example.ex_templete.util;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.Menu;
+
+import com.example.ex_templete.R;
+import com.example.ex_templete.ViewPagerFragment;
 
 public class AndyActivity extends FragmentActivity {
 
