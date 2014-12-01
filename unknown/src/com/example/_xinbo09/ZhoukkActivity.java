@@ -9,7 +9,7 @@ import android.view.View;
 import com.example.ex_templete.AndyActivity;
 import com.example.ex_templete.R;
 
-public class HuChunJieActivity extends Activity {
+public class ZhoukkActivity extends Activity {
 
 	/**
 	 *kkkkkkkkkkkk
