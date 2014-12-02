@@ -39,7 +39,7 @@ public class Xinbo09Activity extends Activity {
 		imageView = (ImageView)findViewById(R.id.imgV);
 		show_anim(imageView);
 
-		final View controlsView1 = findViewById(R.id.fullscreen_content_controls);
+		final View ctrlView = findViewById(R.id.fullscreen_content_controls);
 		final View contentView = findViewById(R.id.fullscreen_content);
 
 		// Set up an instance of SystemUiHider to control the system UI for
@@ -62,13 +62,13 @@ public class Xinbo09Activity extends Activity {
 							// in-layout UI controls at the bottom of the
 							// screen.
 							if (mControlsHeight == 0) {
-								mControlsHeight = controlsView1.getHeight();
+								mControlsHeight = ctrlView.getHeight();
 							}
 							if (mShortAnimTime == 0) {
 								mShortAnimTime = getResources().getInteger(
 										android.R.integer.config_shortAnimTime);
 							}
-							controlsView1
+							ctrlView
 									.animate()
 									.translationY(visible ? 0 : mControlsHeight)
 									.setDuration(mShortAnimTime);
@@ -77,7 +77,7 @@ public class Xinbo09Activity extends Activity {
 							// available, simply show or hide the in-layout UI
 							// controls.
 							// a
-							controlsView1.setVisibility(visible ? View.VISIBLE
+							ctrlView.setVisibility(visible ? View.VISIBLE
 									: View.GONE);
 						}
 
