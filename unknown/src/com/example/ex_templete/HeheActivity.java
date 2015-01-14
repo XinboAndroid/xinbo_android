@@ -39,7 +39,7 @@ public class HeheActivity extends Activity
                     startActivity(intent);
                     finish();
                 }
-            }, 2000);
+            }, 3000);
         }
         if(!isGoNext)
         {
