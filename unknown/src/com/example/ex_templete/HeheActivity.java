@@ -51,7 +51,7 @@ public class HeheActivity extends Activity
                 @Override
                 public void onClick(DialogInterface dialog, int which)
                 {
-                    isGoNext = true;
+                    isGoNext = false;
                     Toast.makeText(HeheActivity.this, "鍐嶇偣锛岃繕浼氭湁鎯婂鐨勫摝", Toast.LENGTH_LONG).show();
                 }
             })
