@@ -17,7 +17,7 @@ public class CHHActivity extends Activity
 	}
 	public void btn(View v)
 	{
-		startActivity(new Intent());
+		startActivity(new Intent(CHHActivity.this,HeheActivity.class));
 	}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu)
