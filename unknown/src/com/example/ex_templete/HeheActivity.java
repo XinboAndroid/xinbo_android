@@ -45,7 +45,7 @@ public class HeheActivity extends Activity
         {
             new AlertDialog.Builder(this).setTitle("")
             .setMessage("Unfortunately,SimplePuzzle    \nhas stopped.")
-            .setNegativeButton("ko", new DialogInterface.OnClickListener()
+            .setNegativeButton("koo", new DialogInterface.OnClickListener()
             {
                 
                 @Override
