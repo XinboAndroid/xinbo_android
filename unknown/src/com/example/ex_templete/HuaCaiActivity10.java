@@ -28,7 +28,6 @@ public class HuaCaiActivity10 extends Activity {
 		final ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
 		
 		LayoutInflater inflater = getLayoutInflater();
-	//2014.1.2 鍚�***     
 		View layout1 = inflater.inflate(R.layout.pager_item, null);
 		View layout2 = inflater.inflate(R.layout.pager_item, null);
 		View layout3 = inflater.inflate(R.layout.pager_item_huacai, null);
