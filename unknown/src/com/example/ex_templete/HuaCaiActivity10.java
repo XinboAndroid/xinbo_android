@@ -28,6 +28,7 @@ public class HuaCaiActivity10 extends Activity {
 		final ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
 		
 		LayoutInflater inflater = getLayoutInflater();
+		final ArrayList<View> layouts =  new ArrayList<View>();
 		int[] layoutsIDs = new int[]{
 				R.layout.pager_item,	
 				R.layout.pager_item,	
@@ -35,7 +36,6 @@ public class HuaCaiActivity10 extends Activity {
 				R.layout.pager_item,	
 				R.layout.pager_item	
 		};
-		final ArrayList<View> layouts =  new ArrayList<View>();
 		for (int i = 0; i < layoutsIDs.length; i++) {
 			View layout1 = inflater.inflate(layoutsIDs[i], null);
 			layouts.add(layout1);
