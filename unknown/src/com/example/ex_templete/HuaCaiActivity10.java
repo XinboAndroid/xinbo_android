@@ -27,6 +27,7 @@ public class HuaCaiActivity10 extends Activity {
 		setContentView(R.layout.activity_guide);
 		
 		final ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
+		System.out.println("test");
 		Log.e("test", "test");
 		LayoutInflater inflater = getLayoutInflater();
 		final ArrayList<View> layouts =  new ArrayList<View>();
