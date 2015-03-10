@@ -28,20 +28,31 @@ public class HuaCaiActivity10 extends Activity {
 		final ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
 		
 		LayoutInflater inflater = getLayoutInflater();
-		View layout1 = inflater.inflate(R.layout.pager_item, null);
-		View layout2 = inflater.inflate(R.layout.pager_item, null);
-		View layout3 = inflater.inflate(R.layout.pager_item_huacai, null);
-		// 鍛靛懙 涓嶇煡閬撳姞浠�箞浜�灏卞姞涓敞閲婂惂
-		View layout4 = inflater.inflate(R.layout.pager_item, null);
-		View layout5 = inflater.inflate(R.layout.pager_item, null);
-		
+		int[] layoutsIDs = new int[]{
+				R.layout.pager_item,	
+				R.layout.pager_item,	
+				R.layout.pager_item_huacai,	
+				R.layout.pager_item,	
+				R.layout.pager_item	
+		};
 		final ArrayList<View> layouts =  new ArrayList<View>();
-		
-		layouts.add(layout1);
-		layouts.add(layout2);
-		layouts.add(layout3);
-		layouts.add(layout4);
-		layouts.add(layout5);
+		for (int i = 0; i < layoutsIDs.length; i++) {
+			View layout1 = inflater.inflate(layoutsIDs[i], null);
+			layouts.add(layout1);
+		}
+//		View layout1 = inflater.inflate(R.layout.pager_item, null);
+//		View layout2 = inflater.inflate(R.layout.pager_item, null);
+//		View layout3 = inflater.inflate(R.layout.pager_item_huacai, null);
+//		// 鍛靛懙 涓嶇煡閬撳姞浠�箞浜�灏卞姞涓敞閲婂惂
+//		View layout4 = inflater.inflate(R.layout.pager_item, null);
+//		View layout5 = inflater.inflate(R.layout.pager_item, null);
+//		
+//		
+//		layouts.add(layout1);
+//		layouts.add(layout2);
+//		layouts.add(layout3);
+//		layouts.add(layout4);
+//		layouts.add(layout5);
 		
 		PagerAdapter adapter = new PagerAdapter() {
 			
