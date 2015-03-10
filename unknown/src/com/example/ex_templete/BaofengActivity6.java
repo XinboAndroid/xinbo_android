@@ -20,6 +20,7 @@ public class BaofengActivity6 extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_baofeng_activity6);
+		// 2015.03.10 16:58 增加注释
 		// 2014.01.02  16:55 新增注释 
 		System.out.println("test");		
 		Log.e("test", "onCreate()");
