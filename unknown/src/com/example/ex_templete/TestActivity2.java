@@ -10,6 +10,13 @@ public class TestActivity2 extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_test_activity2);
+		// 初始化UI
+		initUI();
+	}
+
+	private void initUI() {
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
