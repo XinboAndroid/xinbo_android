@@ -3,6 +3,7 @@ package com.example._xinbo09;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 
@@ -32,6 +33,7 @@ public class HuChunJieActivity extends Activity {
 		// û�в����ļ�
 		// setContentView(R.layout.activity_hu_chun_jie);
 		//我也试试有没效果
+		Log.e("lin", "lin");
 	}
 
 	@Override
