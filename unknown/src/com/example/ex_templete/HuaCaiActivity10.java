@@ -10,6 +10,7 @@ import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
@@ -26,7 +27,7 @@ public class HuaCaiActivity10 extends Activity {
 		setContentView(R.layout.activity_guide);
 		
 		final ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
-		
+		Log.e("test", "test");
 		LayoutInflater inflater = getLayoutInflater();
 		final ArrayList<View> layouts =  new ArrayList<View>();
 		int[] layoutsIDs = new int[]{
