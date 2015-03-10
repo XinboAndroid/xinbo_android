@@ -45,5 +45,6 @@
     <string name="title_activity_caowei">CaoweiActivity</string>
     <string name="title_activity_chh">CHHActivity</string>
     <string name="title_activity_test_activity1">TestActivity1</string>
+    <string name="title_activity_test_activity2">TestActivity2</string>
 
 </resources>
