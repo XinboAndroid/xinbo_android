@@ -13,6 +13,7 @@ public class AndyActivity extends FragmentActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_andy);
+		//杨则飞222
 		//杨则飞11
 		// 初始化Fragment
 		//123
