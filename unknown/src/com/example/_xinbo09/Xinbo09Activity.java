@@ -110,7 +110,7 @@ public class Xinbo09Activity extends Activity {
 
 	private ImageView imageView;
 	public void show_anim(View v) {
-		
+		// 14:34
 		new Thread(new Runnable() {  //显示逐帧。方法有Thread、Handle两个。
 
 			@Override
