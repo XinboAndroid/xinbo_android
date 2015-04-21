@@ -39,7 +39,7 @@ public class Xinbo09Activity extends Activity {
 		imageView = (ImageView)findViewById(R.id.imgV);
 		show_anim(imageView);
 
-		// 2015-04-21  14：31
+		// 2015-04-21  14：33 
 		final View ctrlView = findViewById(R.id.fullscreen_content_controls);
 		final View contentView = findViewById(R.id.fullscreen_content);
 
