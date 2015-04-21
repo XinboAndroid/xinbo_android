@@ -7,6 +7,7 @@ import android.graphics.drawable.AnimationDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
@@ -118,7 +119,7 @@ public class Xinbo09Activity extends Activity {
 				try {
 					Thread.sleep(100);
 				} catch (InterruptedException e) {
-					System.out.println(e.getMessage());
+					Log.e("tag", e.getMessage());
 				}
 				AnimationDrawable animationDrawable = (AnimationDrawable) imageView.getDrawable();
 				animationDrawable.start();
