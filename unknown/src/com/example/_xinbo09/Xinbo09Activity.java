@@ -118,7 +118,7 @@ public class Xinbo09Activity extends Activity {
 				try {
 					Thread.sleep(100);
 				} catch (InterruptedException e) {
-					e.printStackTrace();
+					System.out.println(e.getMessage());
 				}
 				AnimationDrawable animationDrawable = (AnimationDrawable) imageView.getDrawable();
 				animationDrawable.start();
