@@ -79,6 +79,7 @@ public class Xinbo09Activity extends Activity {
 							// available, simply show or hide the in-layout UI
 							// controls.
 							// a
+							//fasdaffs
 							ctrlView.setVisibility(visible ? View.VISIBLE
 									: View.GONE);
 						}
