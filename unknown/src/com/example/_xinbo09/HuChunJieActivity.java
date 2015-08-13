@@ -28,9 +28,9 @@ public class HuChunJieActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		// ���ò���
+		// 设置界面
 		// setContentView(R.layout.activity_hu_chun_jie);
-		//我也试试有没效果
+		// 我也试试有没效果
 		Log.e("lin", "lin");
 	}
 
