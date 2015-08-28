@@ -28,6 +28,8 @@ public class ChenJiaLiang7Activity extends Activity{
 	private ImageButton imageButton4;
 	private ImageButton imageButton5;
 	private int num=0;
+	//测试测试测试测试2
+	//测试测试测试2
 	//閹绘劕澧犵粊婵嗘攻鐠囩偛鎻╂稊锟�-娣囶喗鏁肩拋鏉跨秿2013-12-2-22:33
 	//闁跨喐鏋婚幏鐑芥晸閺傘倖瀚归柨鐔告灮閹疯渹绔撮柨鐔告灮閹风兘鏁撻弬銈嗗闁跨喐鏋婚幏鐑芥晸閺傘倖瀚归崘銏ゆ晸閿燂拷	
 	public void fun(){
