@@ -16,6 +16,7 @@ import android.view.View;
 //next to ChenJiaLiang7Activity
 public class BaofengActivity6 extends Activity {
 
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
