@@ -169,6 +169,11 @@
             android:name="com.example.ex_templete.TestActivity2"
             android:label="@string/title_activity_test_activity2" >
         </activity>
+        <activity
+            android:name="com.example.ex_templete.LiaoHuiActivity10"
+            android:label="@string/title_activity_test_activity2" >
+        </activity>
+
     </application>
 
 </manifest>
