@@ -9,6 +9,7 @@ import android.view.View;
 public class CaoweiActivity extends Activity
 {
 
+	//测试测试
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
