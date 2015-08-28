@@ -52,7 +52,10 @@ public class HeheActivity extends Activity
                 public void onClick(DialogInterface dialog, int which)
                 {
                     isGoNext = false;
+                    Intent intent = null;
                     Toast.makeText(HeheActivity.this, "鍐嶇偣锛岃繕浼氭湁鎯婂鐨勫摝", Toast.LENGTH_LONG).show();
+                    intent = new Intent(HeheActivity.this,HahaActivity.class);
+                    startActivity(intent);
                 }
             })
             .show();
