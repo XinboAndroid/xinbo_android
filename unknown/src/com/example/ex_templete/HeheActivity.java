@@ -35,7 +35,7 @@ public class HeheActivity extends Activity
                     //璺宠浆鍒颁笅涓�釜椤甸潰鎺ュ彛锛�
                     Intent intent = null;
                     //璺宠浆鍙互淇敼HahaActivity绫伙紱
-                    intent = new Intent(HeheActivity.this,HahaActivity.class);
+                    intent = new Intent(HeheActivity.this,LiaoHuiActivity10.class);
                     startActivity(intent);
                     finish();
                 }
@@ -54,7 +54,7 @@ public class HeheActivity extends Activity
                     isGoNext = false;
                     Intent intent = null;
                     Toast.makeText(HeheActivity.this, "鍐嶇偣锛岃繕浼氭湁鎯婂鐨勫摝", Toast.LENGTH_LONG).show();
-                    intent = new Intent(HeheActivity.this,HahaActivity.class);
+                    intent = new Intent(HeheActivity.this,LiaoHuiActivity10.class);
                     startActivity(intent);
                 }
             })
