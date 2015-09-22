@@ -20,9 +20,6 @@ public class HuChunJieActivity extends Activity {
 		intent.setClass(this, AndyActivity.class);
 		startActivity(intent);
 		finish();
-		int a;
-		int b;
-		int c;
 	}
 
 	@Override
