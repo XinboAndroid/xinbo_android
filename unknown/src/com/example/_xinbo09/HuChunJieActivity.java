@@ -10,6 +10,12 @@ import android.view.View;
 import com.example.ex_templete.AndyActivity;
 import com.example.ex_templete.R;
 
+/**
+ * 测试Activity
+ * @author Administrator
+ * @since 1.0
+ *
+ */
 public class HuChunJieActivity extends Activity {
 
 	/**
