@@ -32,7 +32,7 @@ public class HuChunJieActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		// 我也试试有没效果
 		// 设置界面
-//		 setContentView(R.layout.activity_hu_chun_jie);
+		 setContentView(R.layout.activity_hu_chun_jie);
 		Log.e("lin", "lin");
 	}
 
