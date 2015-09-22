@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 
 import com.example.ex_templete.AndyActivity;
@@ -33,14 +34,15 @@ public class HuChunJieActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		// 我也试试有没效果
 		// 设置界面
-		// setContentView(R.layout.activity_hu_chun_jie);
+//		 setContentView(R.layout.activity_hu_chun_jie);
 		Log.e("lin", "lin");
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.andy, menu);
+		MenuInflater menuInflater = getMenuInflater();
+		menuInflater.inflate(R.menu.andy, menu);
 		return true;
 	}
 
