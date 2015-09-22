@@ -23,8 +23,7 @@ public class HuChunJieActivity extends Activity {
 	 * @param v
 	 */
 	public void xinbo_btn(View v) {
-		Intent intent = new Intent();
-		intent.setClass(this, AndyActivity.class);
+		Intent intent = new Intent(this, AndyActivity.class);
 		startActivity(intent);
 		finish();
 	}
